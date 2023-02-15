@@ -1,0 +1,90 @@
+@import "../../Sass/variables.module";
+
+body {
+    overflow-x: hidden;
+}
+
+// css for banner
+.imgRow {
+    height: 550px;
+    background-image: url('../../../public/Assets/bg.png');
+    background-size: contain;
+    height: 800px;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: $font-color-primary;
+    padding: 10%;
+
+    .bannerTitle {
+        font-style: italic;
+        font-weight: 600;
+        font-size: 60px;
+    }
+    
+    .bannerText {
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    
+    .btn {
+        background-color: $color-primary;
+        border-color: $color-secondary;
+        border-radius: 0;
+        padding: 10px;
+        border-width: 2px;
+        width: 200px;
+    }
+    
+    .btn:hover,
+    .btn:active {
+        background-color: $color-secondary;
+        border-color: $color-secondary;
+        border-radius: 0;
+        padding: 10px;
+    }
+}
+
+// css for cards
+.card {
+    border-color: $color-secondary ;
+    border-width: 3px;
+    height: 350px;
+
+    .card-body {
+        background-color: $color-primary;
+        transition: box-shadow 0.3s;
+    }
+    
+    .card-body:hover{
+        box-shadow: 5px 5px 15px $color-secondary;
+    }
+
+    .card-title{
+        font-style: italic;
+        font-size: 24px;
+        margin: 10% 0%;
+    }
+
+    span{
+        font-size: 60px;
+        color: $color-secondary;
+    }
+}
+
+.carouselRow{
+    margin-left: 2%;
+    margin-bottom: 5%;
+
+    img {
+        height: 500px;
+    }
+
+    li {
+        font-size: 20px;
+        margin:8% 0%;
+    }
+
+    li::marker {
+        color: $color-secondary
+    }
+}

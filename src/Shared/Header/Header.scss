@@ -1,0 +1,30 @@
+@import "../../Sass/variables.module";
+
+.navbar-expand-lg {
+    background-color: $color-primary;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    margin: 0 3%
+}
+
+.dropdown-toggle {
+    margin: 0 3%;
+}
+
+
+
+.dropdown-menu {
+    background-color: #161d36;
+    border-color: $color-secondary;
+    margin-top: 2%;
+}
+
+.dropdown-item, .dropdown-item:hover  {
+    color: $font-color-primary;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(49, 55, 75, 0.8);
+}
